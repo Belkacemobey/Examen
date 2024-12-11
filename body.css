@@ -1,0 +1,65 @@
+html, body {
+  height: 100%; /* Permet de définir la hauteur minimale de la page */
+  margin: 0; /* Supprime les marges inutiles */
+  display: flex;
+  flex-direction: column; /* Positionne le contenu verticalement */
+}
+
+body {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto; /* Positionne le footer à la fin de la page */
+}
+.carousel-inner {
+  height: 500px;  /* Vous pouvez ajuster cette hauteur selon vos besoins */
+}
+
+.carousel-img {
+  object-fit: cover;  /* Permet à l'image de couvrir toute la zone du carousel */
+  width: 100%;  /* Assure que l'image couvre toute la largeur */
+  height: 100%;  /* Assure que l'image couvre toute la hauteur du carousel */
+}
+
+.caption {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;  /* Taille du texte du titre */
+  font-weight: bold;
+  color: transparent;  /* Rend la couleur du texte transparente pour voir le dégradé */
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 50px rgba(255, 255, 255, 0.3);  /* Effet de brillance */
+}
+
+.caption-text {
+  font-family: 'Poppins', sans-serif;  /* Utiliser Poppins pour le sous-titre */
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #b00000;
+}
+
+.btn-primary {
+  background-color: #b00000;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: #9e0000;
+}
+
+    .custom-column img {
+      width: 100%; /* Ajuste les images à la largeur de leur conteneur */
+      height: 200px; /* Fixe une hauteur uniforme pour toutes les images */
+      object-fit: cover; /* Maintient les proportions tout en remplissant le conteneur */
+    }
+    .custom-column h5 {
+      margin-top: 10px;
+      font-size: 1.2rem; /* Taille uniforme des titres */
+    }
+    .custom-column p {
+      font-size: 0.9rem; /* Taille uniforme des descriptions */
+      line-height: 1.5; /* Meilleure lisibilité */
+    }
+ 
+

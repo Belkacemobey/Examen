@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://www.lequotidien.com.tn/images/ESS_AG_elective.png'); /* Remplace par l'URL de ton image */
+    background-size: cover;  /* Ajuste l'image pour qu'elle couvre toute la page */
+    background-position: center;  /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pour qu'elle ne bouge pas quand on fait défiler la page */
+}
+.toast {
+    background-color: #28a745; /* Couleur verte */
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .toast-header {
+    background-color: #218838; /* Couleur verte plus foncée */
+    color: white;
+  }
+  
+  .toast-body {
+    font-size: 1rem;
+  }
+  
